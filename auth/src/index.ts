@@ -3,11 +3,6 @@ import mongoose from 'mongoose'
 import { app } from './app'
 
 const start = async () => {
-<<<<<<< Updated upstream
-  console.log('starting up!!!!!')
-=======
-  console.log('starting up!!!!!!!!!!')
->>>>>>> Stashed changes
   if (!process.env.JWT_KEY) {
     throw new Error('JWT_KEY must be defined')
   }
